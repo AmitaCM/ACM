@@ -1,0 +1,16 @@
+#THIS CODE IS NOT WORKING CAN ONE HELP ME WITH THIS 
+$s = "agcttataatcgtacgtacgtacgtacgtacgtaccccggggtttt";
+if ($s=~m/(tataat)/)
+{
+print "$1found\n";
+}
+else 
+{
+print "tataat not found";
+}
+
+use LWP qw(C:\Perl\site\lib\LWP);
+use LWP qw(C:\Perl\lib\LWP);
+$url = "https://www.ncbi.nlm.nih.gov/nuccore/AABQ01000377.1?report=genbank";
+$content = get $url;
+print $content;
